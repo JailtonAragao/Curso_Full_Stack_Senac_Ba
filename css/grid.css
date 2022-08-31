@@ -1,0 +1,26 @@
+#pai{
+  background: lightpink;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /*Grid Template orientado na horizontal padronizado na coluna, 1fr é uma fração da tela é responsivo  */
+  gap: 10px;
+
+}
+
+.caixa{
+  background: rgb(14, 180, 14);
+  height: 200px;
+}
+
+#caixa4{
+  background: red;
+  color: black;
+  font-weight: 800;
+  grid-column: 1/-1;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 5px;
+}
+
+#caixa4 div{
+  background: yellow;
+}
