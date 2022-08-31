@@ -1,0 +1,37 @@
+body{
+  background:linear-gradient(180deg, red, blue, orange, green)
+  /*O radial-gradient não usa graus = deg*/
+
+}
+
+
+h1 {
+  font-size: 60px;
+  color: #660322;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+hr {
+  width: 50%;
+  height: 10px;
+  background: #660322;
+  
+}
+
+p {
+  width: 50%;
+  text-align: justify; /*Justificando o texto*/
+  margin: 0; /* 0 para margin acima e abaixo*/
+  margin-left: auto;/*Auto para left e right para ajustar ao centro o paragrafo*/
+  margin-right: auto;
+}
+
+.foto, #video { /* Para centralizar imagem usar display: block */
+  width: 70%;
+  margin: 0 auto;
+  display: block;
+}
+
+ 

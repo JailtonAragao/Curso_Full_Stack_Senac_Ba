@@ -1,0 +1,36 @@
+ body {
+  background: url("/imagens/back-g2.jpg");
+  background-repeat: no-repeat; /*n"ao repetir a imagem*/
+  background-size: cover; /*para o back caber dentro viewport*/
+  background-attachment: fixed;/*Trava o back de forma fixa*/
+  background-position: top center; /*Alinhando o backgroud 1 param vertical 2 param horizontal*/
+  
+}
+
+h1 {
+  font-family: arial;
+  font-size: 60px;
+  color: blue;
+  text-align: center;
+}
+
+hr {
+  width: 60%;
+  height: 15px;
+  background: green;
+}
+
+.foto , .video{
+  width: 60%;
+  margin: 0 auto;
+  display: block;
+}
+footer{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+  text-align: center;
+  color: blue;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}

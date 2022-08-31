@@ -1,0 +1,48 @@
+body{
+  background:url(/imagens/back-g2.jpg)
+  /*O radial-gradient não usa graus = deg*/
+  
+
+}
+
+
+h1 {
+  font-size: 60px;
+  color: #660322;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+hr {
+  
+  height: 10px;
+  background: #660322;
+  
+}
+
+p {
+  
+  text-align: justify; /*Justificando o texto*/
+  margin: 0; /* 0 para margin acima e abaixo*/
+  margin-left: auto;/*Auto para left e right para ajustar ao centro o paragrafo*/
+  margin-right: auto;
+}
+
+.box{
+  width: 60%;
+  margin: 30px auto;
+  background: rgba(0, 0, 0, 0.225);
+  padding: 10px;/*controla espaçamentointerno do conteudo*/
+  border-radius: 30px; /*contola arendoamento da caixa*/
+  color: rgb(39, 7, 154);
+}
+
+.box span { /*Pseudo classe sem agrutinaçao da virgula*/
+  color: orange;
+  font-weight: 700; /*Ajusta o peso e pensonalzação*/
+}
+
+
+
+ 
