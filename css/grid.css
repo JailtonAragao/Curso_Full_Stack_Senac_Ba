@@ -15,12 +15,16 @@
   background: red;
   color: black;
   font-weight: 800;
-  grid-column: 1/-1;
+  grid-column: 1/-1; /*Oculpa 1 para 1 dentro do div pai*/
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(5, 200px);
   gap: 5px;
+  justify-content: space-around;/*Alinhamento na horizontal para os filhos Start/Center/End*/
 }
 
 #caixa4 div{
   background: yellow;
 }
+
+/*JUSTIFY-CONTENT = Alinha o conteudo na largura da div pai*/
+/*ALIGN-CONTENT = Alinha o conteudo na largura da div pai*/
