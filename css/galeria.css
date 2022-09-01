@@ -1,0 +1,40 @@
+/* Normalização Reset da pagina */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*CSS Body----------------------------------------------------*/
+
+body{
+  background: linear-gradient(135deg, lightblue, lightgreen);
+
+}
+/*CSS Container -----------------------------------------------*/
+
+.container{
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  margin: 40px;
+  padding: 10px;  
+}
+/*CSS Polaroid -----------------------------------------------*/
+
+.polaroid{
+  background: white;
+  padding: 15px 15px 40px 15px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.228);/*Config box-shadow paramentro 1 sombra vertical, 2 horizontal, 3 desforque da sombra, 4 cor e opacidade*/
+}
+
+.polaroid img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;/* ajusta a imagem altura fixada*/
+}
+
+.polaroid h2{
+  margin-bottom: 7px;
+}
+
