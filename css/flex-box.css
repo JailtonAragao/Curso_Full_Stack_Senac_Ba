@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+
+.pai{
+  max-width: 100%;
+  height: 700px;
+  background: lightcoral;
+  display: flex;/*orienta as teg filhos em a se ajustar em coluna*/
+  gap: 10px;
+  /* align-items: center; controle dos filhos na vertical */
+  justify-content: center;/*controle dos filhos na horizontal*/
+  flex-wrap: wrap;/**/
+}
+
+.filho{
+  background: lightseagreen;
+  flex-grow: 1;/**/
+  /* flex-basis: 400px;
+} */
