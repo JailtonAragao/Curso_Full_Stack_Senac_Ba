@@ -34,5 +34,5 @@ function retroceder(){
 }
 
 function avancar(){
-  video.currentTime -= 10
+  video.currentTime += 10
 }
