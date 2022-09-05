@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap');
+
 body{
   background:url(/imagens/back-g2.jpg)
   /*O radial-gradient não usa graus = deg*/
@@ -5,12 +7,19 @@ body{
 
 }
 
+/* Virtualização da fonte pelo CSS */
+/* Fonte pode ser baixada com a extensão otf/ttf */
+@font-face {
+  font-family: Mario Word;
+  src: url(/arquivos/SuperMario256.ttf);
+}
+
 
 h1 {
   font-size: 60px;
   color: #660322;
   text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Inconsolata', monospace;
 
 }
 
@@ -22,7 +31,7 @@ hr {
 }
 
 p {
-  
+  font-family: 'Inconsolata', monospace;
   text-align: justify; /*Justificando o texto*/
   margin: 0; /* 0 para margin acima e abaixo*/
   margin-left: auto;/*Auto para left e right para ajustar ao centro o paragrafo*/
