@@ -1,0 +1,39 @@
+/* Normalização do css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#teste {
+  width: 800px;
+  border: 1px solid black;
+  margin: 100px auto;
+  padding: 40px;
+  background: lightsteelblue;
+  
+  /* Posicionamento relativo para oritentar todos os absoluto dentro dele */
+  position: relative;
+
+}
+
+#teste p{
+    font-size: 40px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+#teste span {
+  background: rgba(255, 0, 0, 0.502);
+  padding: 20px 40px;
+  color: white;
+  font-weight: 700;
+
+  /* Posicionamento absoluto orientado pela div relativo */
+  position: absolute;
+  top: -30px;
+
+  border-radius: 10px;
+  border: 1px solid black;
+}
