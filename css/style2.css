@@ -1,11 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap');
 
+*{
+  /* Normalização */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  scroll-padding-top: 150px;
+}
+img {
+  max-width: 100%;
+}
+
 body{
-  background:url(/imagens/back-g2.jpg)
+  margin-top: 150px;
+  background:rgb(225, 220, 220)
+  
   /*O radial-gradient não usa graus = deg*/
   
 
 }
+
+.topo{
+  width: 100%;
+  height: 120px;
+  padding: 10px 110px;
+  background-color: aquamarine;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  position: fixed;
+  top: 0;
+  z-index: 1;
+
+}
+
+.logo{
+  width: 100px;
+}
+
+.menu ul{
+  display: flex;
+  gap: 30px;
+  list-style-type: none;
+  font-weight: 900;
+  font-family: 'Inconsolata', monospace;
+  
+}
+
+.menu ul li{
+  background: #efb607;
+  padding: 20px 30px;
+  border-radius: 7px;
+  font-size: 20px;
+    
+}
+
+.menu ul li:hover{
+  background: #000000;
+  color: white;
+  transition: 1.5s;
+  
+    
+}
+
+.menu ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+.menu ul li a:hover{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+
 
 /* Virtualização da fonte pelo CSS */
 /* Fonte pode ser baixada com a extensão otf/ttf */
@@ -15,12 +87,8 @@ body{
 }
 
 
-h1 {
-  font-size: 60px;
-  color: #660322;
-  text-align: center;
-  font-family: 'Inconsolata', monospace;
-
+.corpo {
+  
 }
 
 hr {
