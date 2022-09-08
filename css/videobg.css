@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: black;
+}
+
+#videobg{
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  background-size: cover;
+  z-index: -1;
+
+}
+
+.rodape{
+  width: 100%;
+  background: rgba(0, 0, 0, 0.458);
+  bottom: 0;
+  position: fixed;
+  padding: 20px;
+  text-align: center;
+}
+
+.rodape h1{
+  color: #ccc;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.rodape p{
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+  line-height: 20px;
+  margin: 10px auto 2px auto;
+  
+}
+
+.rodape button{
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 18px;
+  background: orange;
+  color: black;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: block;
+  margin: 10px auto;
+  transition: .9s;
+}
+
+.rodape button:hover{
+  background: black;
+  color: orange;
+
+}
