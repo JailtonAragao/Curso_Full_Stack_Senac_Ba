@@ -46,6 +46,11 @@ body{
   
 }
 
+.rodape span{
+  color: orange;
+  font-weight: 800;
+}
+
 .rodape button{
   padding: 10px;
   border-radius: 10px;
