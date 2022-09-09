@@ -13,6 +13,7 @@ body{
   min-height: 100%;
   width: auto;
   height: auto;
+  
   position: fixed;
   right: 0;
   bottom: 0;
@@ -63,4 +64,38 @@ body{
   background: black;
   color: orange;
 
+}
+
+@media (max-width:400px) {
+  .rodape{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.458);
+    bottom: 0;
+    position: fixed;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .rodape h1{
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .rodape p{
+    color: white;
+    font-size: 14px;
+    font-family: sans-serif;
+    line-height: 20px;
+    margin: 10px auto 2px auto;
+    
+  }
+
+  .rodape button{
+    padding: 6px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 600;
+  }
 }
