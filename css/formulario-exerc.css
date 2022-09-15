@@ -1,0 +1,111 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: rgb(37, 10, 118);
+  color: white;
+  max-width: 100%;
+  width: 100%;
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.box-form{
+  background: rgba(48, 162, 23, 0.507);
+  width: 70%;
+  height: 80%;
+  
+  padding: 10px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  
+}
+
+.box-form form{
+  width: 100%;
+  gap: 10px;
+  margin: 10px;
+  
+}
+
+
+
+
+
+
+h1{
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-bottom: 20px;
+
+}
+
+.box-form form label,input,span{
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  
+  
+  
+}
+
+
+
+.box-form input{
+  background: goldenrod;
+  border: none;
+}
+
+.box-form,
+input:hover{
+  color: rgb(203, 159, 47);
+}
+
+.btn-submit input{
+  width: 160px;
+  height: 40px;
+  margin-top: 20px;
+  border: none;
+  transition: .6s;
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Roboto; 
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-submit input:hover{
+  
+  background: black;
+  color: goldenrod;
+}
+
+.btn-submit input:focus{}
+
+
+
+.select-1 select{
+  background: goldenrod;
+  width: 200px;
+  height: 30px;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: Impact;
+  transition: .6s;
+
+}
+
+.select-1 select:hover{
+  background: black;
+  color: goldenrod;
+}
+

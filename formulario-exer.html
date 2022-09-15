@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/formulario-exerc.css">
+  <title>Formulario</title>
+</head>
+<body>
+  <div class="box-form">
+    <div>
+      <h1>CADASTRO DE MATRICULAS</h1>
+    </div>
+
+    <form action="https://formsubmit.co/plotterdigitalssa@gmail.com" method="POST">
+      <label for="nome">Nome:</label>
+      
+      <input type="text" name="nome" id="nome">
+
+      <br><br>
+
+      <label for="email">E-mail:</label>
+      <input type="email" name="email" id="email">
+      <br><br>
+      <label for="data">Data Nascimento:</label>      
+      <input type="date" name="data" id="data">
+
+      <br><br>
+      <label for="tel">Contato:</label>
+      <input type="tel" name="tel" id="tel">
+      
+      
+      <!-- Radiobutton Genero-->
+      <br><br><br>
+
+      
+      <div>
+      <span>Genero:</span>
+      <br>
+      <label for="Masculino">Masculino</label>
+      <input type="radio" name="Masculino" id="Masculino">
+      <label for="Feminino">Feminino</label>
+      <input type="radio" name="Feminino" id="Feminino">
+      <label for="Outros">Outros</label>
+      <input type="radio" name="Outros" id="Outros">
+    </div>
+    <br>
+      <div class="select-1">
+        
+      <!-- Select, escolher item da lista -->
+      <label for="estado">Estados</label><br>
+      <!-- required obrigar a escolher o valor -->
+      <select name="estado" id="estado" required>
+        <option value="">Escolha seu estado</option>
+        <option value="ap">AP</option>
+        <option value="ba">BA</option>
+        <option value="ce">CE</option>
+        <option value="pe">PE</option>
+        <option value="sp">SP</option>
+      </select>
+      </div>
+     
+
+      <br><br>
+       <!-- Radiobutton Grau-->
+      
+          
+          <div>
+            <span>Grau de Instrução:</span>
+            <br>
+            <label for="Fundamental">Fundamental</label>
+            <input type="radio" name="Fundamental" id="Fundamental">
+            <label for="Médio">Médio</label>
+            <input type="radio" name="Médio" id="Médio">
+            <label for="Superior">Superior</label>
+            <input type="radio" name="Superior" id="Superior">
+          </div>
+<br>
+          <div class="select-1">
+            <!-- Select, escolher item da lista -->
+            <label for="estado">Cursos</label><br>
+            <!-- required obrigar a escolher o valor -->
+            <select name="estado" id="estado" required>
+              <option value="">Escolha o Curso</option>
+              <option value="php">PHP</option>
+              <option value="fullstack">FullStack</option>
+              <option value="design">Design</option>
+              <option value="video">Video</option>
+              
+            </select>
+          </div>
+     
+      <!-- Input para pagina obrigado -->
+      <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html">
+      <!-- nega o capcga padrao -->
+      <input type="hidden" name="_captcha" value="false">
+      <!-- organiza os dados para envio -->
+      <input type="hidden" name="_template" value="table">
+      <div class="btn-submit">
+      <input type="submit" value="Enviar" name="submit">
+      </div>
+    </form>
+  </div>
+</body>
+</html>
