@@ -14,7 +14,7 @@
         - method >> indica o metodo de rota usado que no caso será o POST por segurança.
         - action >> formato de arquivo??????
     -->
-    <form action="" method="POST">
+    <form action="https://formsubmit.co/plotterdigitalssa@gmail.com" method="POST">
       <!-- no for e no id do imput deve ter o mesmo nome -->
       <label for="nome">Nome:</label><br>
       <!-- No php name >> nomear variavel sem letra maiuscula -->
@@ -64,7 +64,17 @@
 
       <!-- Submit input tem variavel name="" para retorna um boleano -->
       <input type="submit" value="Enviar" name="submit">
+
+      <!-- Input para pagina obrigado -->
+      <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html">
+      <!-- nega o capcga padrao -->
+      <input type="hidden" name="_captcha" value="false">
+      <!-- organiza os dados para envio -->
+      <input type="hidden" name="_template" value="table">
     </form>
+    <div class="image">
+      <img src="/imagens/inbox-cleanup-animate.svg" alt="">
+    </div>
   </div>
 </body>
 </html>

@@ -12,14 +12,30 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 100%;
+  width: 100%;
+  
+}
+
+h1{
+  color: white;
+  font-size: 60px;
+  text-align: center;
+}
+.box-form .image{
+  width: 90%;
+  
 }
 
 .box-form{
-  width: 40%;
-  background-color: rgba(72, 13, 210, 0.6);
+  width: 50%;
+  height: 70%;
+  background: url(/imagens/moon.jpg);
   padding: 30px;
   border-radius: 10px;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
 }
 
 .box-form form label,span{
@@ -43,8 +59,8 @@ body{
 }
 
 .box-form form input[type="submit"]:hover{
-  background-color: #fff;
-  border:double rgb(72, 0, 255);
+  background: rgba(16, 225, 225, 0.552);
+  border:double rgba(72, 0, 255, 0);
   font-weight: 600;
 
 }
@@ -54,10 +70,30 @@ input[type="email"],
 input[type="tel"],
 textarea, 
 select{
+  background: rgba(255, 255, 255, 0.499);
   padding: 4px 10px;
   width: 200px;
   border-radius: 5px;
   border: none;
 
-}  
+}
+
+.box-form form input[type="radio"]{
+  margin-left: 10px;
+}
+
+.box-form form input:focus, 
+select:focus, 
+textarea:focus{
+  background: rgba(16, 225, 225, 0.552);
+  border: none;
+  outline: none;
+
+}
+
+.box-form form textarea{
+  resize: none;
+  width: 200px;
+  height: 140px;
+}
 
